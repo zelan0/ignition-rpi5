@@ -1,0 +1,44 @@
+# Ignition files
+Ignition-linux-aarch-64-8.1.50/
+Ignition-linux-aarch-64-8.3.2-rc2.zip
+Ignition-linux-aarch-64-8.3.2-rc2/
+ignition-*.zip
+
+# Downloaded files
+*.zip
+*.tar.gz
+*.tgz
+*Zone.Identifier
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
+.secrets/
+
+# UNDANTAG - måste komma EFTER alla ignoreringsregler
+Ignition-linux-aarch-64-8.1.50/
+Ignition-linux-aarch-64-8.1.50/**/*
+modules/
+modules/**/*
